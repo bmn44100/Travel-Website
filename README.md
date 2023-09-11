@@ -100,4 +100,4 @@ If you want to modify the project's source code, you’ll need a text editor/IDE
 
 ## Author
 
-[Bruno Njeru](#https://www.linkedin.com/in/bruno-njeru/)
+[Bruno Njeru](https://www.linkedin.com/in/bruno-njeru/)
