@@ -1,4 +1,4 @@
-![Sasa Travel]([http://url/to/img.png](https://github.com/bmn44100/Travel-Website/blob/main/sasa%20travel.jpg))
+![Sasa Travel](https://github.com/bmn44100/Travel-Website/blob/main/sasa%20travel.jpg)
 
 
 # Sasa Travel
