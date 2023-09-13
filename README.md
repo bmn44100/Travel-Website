@@ -27,6 +27,12 @@ PHP is a server-side programming language that can be embedded into HTML and be 
 
 [Download and install PHP.](https://www.php.net/downloads.php)
 
+#### Composer
+
+Composer is the Dependency Manager for PHP. Install and configure Composer and use it to integrate third-party libraries into any PHP project.
+
+[Download and install Composer.](https://getcomposer.org/)
+
 #### XAMPP
 
 XAMPP helps you create and develop your own applications using web server technologies. XAMPP is an open-source localhost-based server with packages that offer several functionalities. That includes the Apache web server, PHP and the MySQL database. This allows you to create the environment you need to run Sasa Travel on your local machine.
@@ -55,6 +61,8 @@ npm is the standard package manager for Node.js and JavaScript programming langu
 [Download and npm/Node.js](https://nodejs.org/en/download)
 
 ### Running the website locally
+
+#### Using XAMPP
 
 Once XAMPP has finished installing, in a terminal session:
 
@@ -95,6 +103,20 @@ Load the project data from the SQL dump file (hotel_db.sql) to the database (hot
 mysql hotel_db < hotel_db.sql
 ```
 Start XAMPP (make sure to run as admin) and enable the service modules (Apache and MySQL). At this point, open a web browser and navigate to http://localhost/Travel_Website/project/ to view the website running locally from your local copy of the repository or http://localhost/booking_webstie/project/admin/dashboard.php to get to the admin panel.
+
+#### On PHP
+
+Start Git Bash.
+
+```bash
+cd /c/Program Files/xampp/htdocs/Travel-Website
+```
+
+```bash
+php -S localhost:8000
+```
+
+Load up the site by going to http://localhost:8000.
 
 If you want to modify the project's source code, you’ll need a text editor/IDE like Visual Studio Code in order to test any changes you make to the website in your browser before committing them to the codebase.
 
