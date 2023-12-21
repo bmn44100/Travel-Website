@@ -102,7 +102,7 @@ Load the project data from the SQL dump file (hotel_db.sql) to the database (hot
 ```shell
 mysql hotel_db < hotel_db.sql
 ```
-Start XAMPP (make sure to run as admin) and enable the service modules (Apache and MySQL). At this point, open a web browser and navigate to http://localhost/Travel_Website/project/ to view the website running locally from your local copy of the repository or http://localhost/booking_webstie/project/admin/dashboard.php to get to the admin panel.
+Start XAMPP (make sure to run as admin) and enable the service modules (Apache and MySQL). At this point, open a web browser and navigate to http://localhost/Travel_Website/project/ to view the website running locally from your local copy of the repository or http://localhost/Travel_Website/project/admin/dashboard.php to get to the admin panel.
 
 #### On PHP
 
